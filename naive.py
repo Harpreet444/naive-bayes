@@ -10,7 +10,7 @@ import pandas as pd
 import joblib
 
 
-st.set_page_config(page_title='Naive Bayes',page_icon="🚥",layout='wide')
+st.set_page_config(page_title='Naive Bayes',page_icon="🚥",layout='centered')
 data_set = load_wine()
 
 df = pd.concat([pd.DataFrame(data_set.data,columns=data_set.feature_names),pd.DataFrame(data_set.target,columns=['target'])],axis='columns')
