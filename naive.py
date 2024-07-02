@@ -29,8 +29,8 @@ st.write('''
 
 # st.table(df.head())
 
-gaussian = joblib.load('D:\\Machine_learning\\Naive_Bayes\\gaussian.job')
-multinomial = joblib.load('D:\\Machine_learning\\Naive_Bayes\\multinomial.job')
+gaussian = joblib.load('gaussian.job')
+multinomial = joblib.load('multinomial.job')
 
 col1,col2 = st.columns(2)
 col1.markdown("<h2 style='text-align: center; color: #FF4B4B;'>Gaussian classifier</h2>", unsafe_allow_html=True)
